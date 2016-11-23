@@ -1,0 +1,94 @@
+/* Ashleigh Claire Foster, Student ID= 16427265 */
+.navigation-bar {
+    width: 100%;  /* i'm assuming full width */
+    height: 80px; /* change it to desired width */
+    background-color: grey; /* change to desired color */
+    display: flex;
+}
+.navigation-list
+{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  width: 90%;
+}
+.navigation-list li {
+  display: inline-block;
+  padding: 5px 40px;
+}
+.navigation-list li > a {
+  position: relative;
+  display: inline-block;
+  color: black;
+  padding: 2px 3px;
+  padding-bottom: 8px;
+  text-decoration: none;
+  margin-bottom: 20px;
+  letter-spacing: .1em;
+}
+.navigation-list a:hover {
+  color: white;
+  text-decoration: underline;
+}
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 15px;    /* if you want it vertically middle of the navbar. */
+    background-image: url(images/borderlesslogo-logo.png);
+}
+.navigation-bar > a {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    height: 80px;        /* if you want it to take the full height of the bar */
+    line-height: 80px;    /* if you want it vertically middle of the navbar */
+}
+body {
+  flex-direction: column;
+  min-height: 100vh; /* vertical height */
+  margin: 0;
+  line-height: 100%;
+  font-family: sans-serif;
+  font-size: 1.5em;
+  color: #333;
+}
+.footer {
+  padding: 1em;
+  background: rgb(27, 83, 110);
+  text-align: center;
+}
+.main {
+  padding: 10em;
+  background: #EAE5E5;
+  text-align: center;
+}
+@-ms-viewport {
+  width: device-width;
+}
+/** if viewport is smaller than 30em */
+/* @media (max-width: 30em) {
+  .main {
+    flex: 1 0 auto;
+  }
+} */
+/* if viewport is bigger than 30em */
+/* @media (min-width: 30em) {
+  .navigation-bar {
+    display: block;
+  }
+  .wrapper {
+    flex-direction: row;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+  }
+.main {
+    flex: 1 1 auto;
+  }
+}
+/* this layout style was taken from in-class work to help me structure */
