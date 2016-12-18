@@ -7,12 +7,12 @@
     <meta name="description" content="Welcome to my personal portfolio. In this portfolio I will be introducing myself in a short bibliography as well as discussing the relevant qualifications that I've got, the skills I've got, the type of work that I'm doing at the university of Northampton and any previous work experience that I've done."  />
     <title>Simple CV Portfolio</title>
     <link rel="stylesheet" href="css/styles.css" />
-    <link href="https://fonts.googleapis.com/css?family=Damion|Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Roboto|Rokkitt" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- Picked up from this website https://css-tricks.com/snippets/html/responsive-meta-tag/ -->
   </head>
   <body>
 <nav class="navigation-bar">
-  <img class="logo" src="images/borderlesslogo-logo.png"/>
+  <img class="logo" src="images/borderlesslogo-logo.png" alt="A logo which says AFs"/>
     <ul class="navigation-list">
         <li><a href="index.html">Home</a></li>
         <li><a href="bio.html">About</a></li>
@@ -25,23 +25,30 @@
 </header>
 <div class="wrapper"> <!-- a container for our main and aside -->
   <main class="main">
-    <div class="paragraph">
-      <p>
+    <!--<div class="paragraph"> -->
+      <p class="paragraph">
         If you would like to get in contact with me then please fill out this form!
       </p>
-    </div>
+  <!--  </div> -->
     <div id="form-wrap">
       <form>
         <fieldset>
-          <h4>Contact Me</h4>
+          <h4 class="heading4">Contact Me</h4>
           <label class="labelone" for="name">Name:</label>
-          <input name="name" />
+          <input name="name" placeholder="Joe Blogs"/>
+          <br />
           <label for="email">Email:</label>
-          <input name="email" />
+          <input name="email" placeholder="example@example.com"/>
+          <br />
           <label for="subject">Subject:</label>
-          <input name="subject" />
+          <input name="subject" placeholder="Subject title" />
+          <br />
+          <label for="tel">Telephone number:</label>
+    <input type="tel" name="phone_number" if="phone_number"
+    placeholder="(00000) 000000">
+    <br />
           <label for="comments">Comments</label>
-          <textarea name="comments"></textarea>
+          <textarea rows="4" cols="25" name="comments"></textarea>
         </fieldset>
         <fieldset>
           <input class="btn" type="submit" value="Send Email" />
@@ -49,13 +56,15 @@
         </fieldset>
       </form>
     </div>
+    <!-- Got the placeholders from here: https://codepen.io/lizcoultersmith/pen/dOqYWK -->
+    <!-- Got the text area size from here: http://codepen.io/UoN-ThomasRose/pen/NbYrGj -->
     <!-- Got contact form information from here: https://www.youtube.com/watch?v=DB14R0gt8Y8 -->
 <div class="paragraph2">
-<p>
+<p class="paragraph">
   Or contact me via Social media! Links are below in the footer!
 </p>
 </div>
-  </main>
+</main>
 </div> <!-- the end of our wrapper -->
 <footer class="footer">
   <div>

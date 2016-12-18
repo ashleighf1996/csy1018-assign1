@@ -2,7 +2,7 @@
 .navigation-bar {
     width: 100%;  /* i'm assuming full width */
     height: 80px; /* change it to desired width */
-    background-color: grey; /* change to desired color */
+    background-color: #505050; /*change to desired color */
     display: flex;
 }
 .navigation-list
@@ -13,6 +13,7 @@
   display: inline-block;
   text-align: center;
   width: 90%;
+  font-family: 'Indie Flower', cursive;
 }
 .navigation-list li {
   display: inline-block;
@@ -20,8 +21,8 @@
 }
 .navigation-list li > a {
   position: relative;
+  color: wheat;
   display: inline-block;
-  color: black;
   padding: 2px 3px;
   padding-bottom: 8px;
   text-decoration: none;
@@ -44,7 +45,6 @@
     height: 50px;
     margin-right: 20px;
     margin-top: 15px;    /* if you want it vertically middle of the navbar. */
-    background-image: url(images/borderlesslogo-logo.png);
 }
 .navigation-bar > a {
     display: inline-block;
@@ -57,10 +57,89 @@ body {
   /*min-height: 100vh; /* vertical height */
   /*margin: 0;
   /*line-height: 100%; */
-  font-family: sans-serif;
+  /*font-family: sans-serif; */
   font-size: 1.5em;
   color: #333;
-  background: #EAE5E5;
+  /*background: #ddd5d5; */
+  background-image: url(../images/background.jpg);
+  /* Image came from this website: https://unsplash.com/ - Free to use */
+}
+
+section.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-radius: 10px;
+  opacity: 0.8;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+  background: #F2EEED;
+}
+/* This next part of the code is for the "about me" box on the webpage */
+.profilepic {
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  width: 20%;
+}
+.box {
+  border: 1px solid black;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  text-align: center;
+}
+/* It ends here the about me code!! */
+
+.paragraphCV {
+	text-align: center;
+	font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  color: #0A6680;
+}
+.paragraphCV1 {
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.cvlist {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  width:700px;
+  margin:0 auto;
+  text-align: justify;
+}
+/* Used this website to center bullet point content: http://stackoverflow.com/questions/5347451/centering-ul-keeping-lis-aligned */
+.heading5 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+.headingskills {
+  text-align: left;
+  width: 750px;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+}
+.heading6 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #0BA2CD;
+}
+.heading3CV {
+	text-align: center;
+	font-size:36px;
+  font-family: 'Roboto', sans-serif;
+  color: #06485B;
+
+}
+.heading4 {
+	text-align: center;
+	font-size:25px;
+  font-family: 'Roboto', sans-serif;
+  color: #0A80A2;
+
 }
 .footer {
   /*position: absolute; */
@@ -70,20 +149,23 @@ body {
   padding: 1rem;
   text-align: center;
   background: rgb(27, 83, 110);
+  position: sticky;
+
 }
 .main {
   padding: 1em;
-  background: #EAE5E5;
+  /*background: #EAE5E5; */
   /*text-align: center; */
   border-style: groove;
   border-width: thick;
-
+  /*background: #ddd5d5; */
 }
 .heading1 {
   text-align: center;
   margin: 0px;
   border-style: solid;
   border-width: thin;
+  font-family: 'Rokkitt', serif;
 }
 .pageheader {
   background-color: #92827E;
@@ -92,41 +174,53 @@ body {
 @-ms-viewport {
   /* width: device-width; */
 }
-.img-circle {
-  /*float: left; */
-  /* position: absolute; */
-  border-radius: 50%;
-  width: 300px;
-  height:300px;
-  /* z-index: 2; */
-  /* left: 500px; */
-  top: 20%;
-  padding: .5em;
-  float: left;
-}
-.content {
-  width: 800px;
-  height: 350px;
-  margin: 2em 0;
-  border: 2px solid grey;
-  border-radius: 10px;
-  background: #f4f1f1;
-  margin: auto;
-  margin-top: 5vh;
-  font-family: "Times New Roman", Times, serif; /* Got this text from here: http://www.w3schools.com/cssref/pr_font_font-family.asp */
-  font-size: 24px;
-}
 /* Got the center alignment from this website: http://stackoverflow.com/questions/1040554/how-to-put-a-div-in-center-of-browser-using-css */
 /* Got the border and alignment ideas for the content from this website: https://css-tricks.com/almanac/properties/f/float/ */
+
+/* This section is about the index page */
+.prof-box {
+  width: 500px;
+  height: 605px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 25px;
+}
+.prof-pic {
+  border-radius: 50%;
+  height: 210px;
+  width: 210px;
+}
+/* Got the profile box and profile picture layout from this YouTube video: https://www.youtube.com/watch?v=jJuHQNULXGs and I was inspired by his design and decided to incorporate my own theme to it! */
+.index2 {
+  font-weight: 100;
+  letter-spacing: 3;
+  font-family: 'Roboto', sans-serif;
+}
+.indexparagraph {
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+}
 .homeparagraph {
   text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+  font-size: 23px;
 }
+/* The end of the index page styling */
 /* This link was used to construct the border type: http://www.w3schools.com/css/tryit.asp?filename=trycss_text-align_all 8 */
 /* Got border styles from here: http://www.w3schools.com/css/tryit.asp?filename=trycss_border-style */
 #form-wrap {
   width: 600px;
-  border: 3px solid #ccc;
-  background-color: #afc8de;
+  /*border: 3px solid #ccc; */
+  /*background-color: #afc8de; */
+  /*background: rgba(0, 0, 0, 0.4); */
+  background-color: #f6f6f6;
+  opacity: 0.8;
   /*margin: 50px auto; */
   padding: 20px 0 ;
   /*position: absolute; */
@@ -134,6 +228,7 @@ body {
   /*top: 18% */
   text-align: center;
   margin: auto;
+  border-radius: 20px;
 }
 form {
   width: 500px;
@@ -143,21 +238,22 @@ label {
   display: block;
   margin: 5px 0px 5px 0px;
   font: 10px;
-  font-style: sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 input {
-  width: 250px;
+  width: 350px;
 }
 textarea {
-  width: 250px;
+  width: 350px;
 }
 fieldset {
   border: none;
-  background-color: #f6f6f6;
+  /*background-color: #f6f6f6; */
   padding: 0 0 20px 0;
 }
 .labelone {
   margin-top: 10px;
+  font-family: 'Roboto', sans-serif;
 }
 .btn {
   width: 125px;
@@ -171,6 +267,8 @@ form h4 {
   font-style: italic;
   text-align: center;
   font-size: 20px;
+  font-weight: bold;
+  font-family: 'Indie Flower', cursive;
 }
 .paragraph2 {
   font-style:italic;
