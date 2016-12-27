@@ -8,11 +8,14 @@
     <title>Simple CV Portfolio</title>
     <link rel="stylesheet" href="css/styles.css" />
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Roboto|Rokkitt" rel="stylesheet">
+    <link rel="icon" href="images/borderlesslogo-logo.png" type="images/borderlesslogo-logo.png" />
+    <!-- For an icon in the corner of the tab in the screen!! I used the following link to help me out: Do you have to include <link rel=‘icon’ href=‘favicon.ico’ type=‘image/x-icon’ />? (2016) Available at: http://stackoverflow.com/questions/6644684/do-you-have-to-include-link-rel-icon-href-favicon-ico-type-image-x-icon (Accessed: 26 December 2016). -->
     <meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- Picked up from this website https://css-tricks.com/snippets/html/responsive-meta-tag/ -->
   </head>
   <body>
 <nav class="navigation-bar">
-  <img class="logo" src="images/borderlesslogo-logo.png" alt="A logo which says AFs"/>
+  <a href="index.html"><img class="logo" src="images/borderlesslogo-logo.png" alt="A logo which says AF"/></a>
+  <!-- Got the hyperlink code attached to my logo by looking at this website to show me how it was done using the first code: http://www.hyperlinkcode.com/html-image-hyperlink.php -->
     <ul class="navigation-list">
         <li><a href="index.html">Home</a></li>
         <li><a href="bio.html">About</a></li>
@@ -34,21 +37,26 @@
       <form>
         <fieldset>
           <h4 class="heading4">Contact Me</h4>
+          <hr class="dottedline" />
           <label class="labelone" for="name">Name:</label>
-          <input name="name" placeholder="Joe Blogs"/>
+          <input class="contactbox" name="name" placeholder="Joe Blogs"/>
+          <br />
           <br />
           <label for="email">Email:</label>
-          <input name="email" placeholder="example@example.com"/>
+          <input class="contactbox" name="email" placeholder="example@example.com"/>
+          <br />
           <br />
           <label for="subject">Subject:</label>
-          <input name="subject" placeholder="Subject title" />
+          <input class="contactbox" name="subject" placeholder="Subject title" />
+          <br />
           <br />
           <label for="tel">Telephone number:</label>
-    <input type="tel" name="phone_number" if="phone_number"
+    <input class="contactbox" type="tel" name="phone_number" if="phone_number"
     placeholder="(00000) 000000">
     <br />
-          <label for="comments">Comments</label>
-          <textarea rows="4" cols="25" name="comments"></textarea>
+    <br />
+          <label for="comments">Message:</label>
+          <textarea class="contactbox" rows="4" cols="25" name="comments"></textarea>
         </fieldset>
         <fieldset>
           <input class="btn" type="submit" value="Send Email" />
@@ -69,18 +77,18 @@
 <footer class="footer">
   <div>
 <a href="https://twitter.com/ashleighf96" target="_blank">
-<img title="Twitter" alt="Twitter" src="images/01_twitter.png" width="35" height="35" />
+<img class="twitter" title="Twitter" alt="Twitter" src="images/01_twitter.png" width="35" height="35" />
 </a>
 <a href="https://www.facebook.com/ashleigh.foster.73" target="_blank">
-<img title="Facebook" alt="Facebook" src="images/02_facebook.png" width="35" height="35" />
+<img class="facebook" title="Facebook" alt="Facebook" src="images/02_facebook.png" width="35" height="35" />
 </a>
 <a href="https://github.com/ashleighf1996" target="_blank">
-  <img title="Github" alt="Github" src="images/GitHub-Mark-Light-64px.png" width="35" height="35" />
+  <img class="github" title="Github" alt="Github" src="images/GitHub-Mark-Light-64px.png" width="35" height="35" />
 </a>
 <!-- This HTML code came from this website: https://socialmediawidgets.wordpress.com/ -->
 <!-- The Github logo came from this website: https://github.com/logos -->
 </div>
-  <em>Ashleigh Foster</em>&copy; <!-- This is a copyright symbol which reserves the rights to this website -->
+<em class="footertext">© 2016/2017 Ashleigh Claire Foster. All Rights Reserved</em> <!-- This is a copyright symbol which reserves the rights to this website -->
 </footer>
 </body>
 </html>

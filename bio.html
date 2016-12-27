@@ -8,11 +8,14 @@
     <title>Simple CV Portfolio</title>
     <link rel="stylesheet" href="css/styles.css" />
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Roboto|Rokkitt" rel="stylesheet">
+    <link rel="icon" href="images/borderlesslogo-logo.png" type="images/borderlesslogo-logo.png" />
+    <!-- For an icon in the corner of the tab in the screen!! I used the following link to help me out: Do you have to include <link rel=‘icon’ href=‘favicon.ico’ type=‘image/x-icon’ />? (2016) Available at: http://stackoverflow.com/questions/6644684/do-you-have-to-include-link-rel-icon-href-favicon-ico-type-image-x-icon (Accessed: 26 December 2016). -->
     <meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- Picked up from this website https://css-tricks.com/snippets/html/responsive-meta-tag/ -->
   </head>
   <body>
 <nav class="navigation-bar">
-  <img class="logo" src="images/borderlesslogo-logo.png"/>
+  <a href="index.html"><img class="logo" src="images/borderlesslogo-logo.png" alt="A logo which says AF"/></a>
+  <!-- Got the hyperlink code attached to my logo by looking at this website to show me how it was done using the first code: http://www.hyperlinkcode.com/html-image-hyperlink.php -->
     <ul class="navigation-list">
         <li><a href="index.html">Home</a></li>
         <li><a href="bio.html">About</a></li>
@@ -27,37 +30,36 @@
 <main class="main">
 
 <div class="page">
-      <img class="profilepic" src="images/aboutpic.jpg" />
+      <img class="profilepic" src="images/aboutpic.jpg" alt="Profile picture of Ashleigh Foster"/>
     </div>
     <hr />
-      <section class="box content">
-      <h1>About me</h1>
-      <p> Integer feugiat, nulla eget pulvinar venenatis, ante velit dictum lacus, ac egestas leo metus sit amet nulla. In hac habitasse platea dictumst. Vivamus vitae tortor sollicitudin, fringilla quam et, tempus orci. Aenean euismod lorem eu est mollis, eget convallis leo porta. Praesent eget porta sapien. Praesent eget orci cursus lacus aliquet mattis. Suspendisse vel odio non leo dignissim porta vel ut dui. Phasellus placerat urna a tempus tincidunt.</p>
-
-<p>Aliquam erat volutpat. Suspendisse consectetur aliquam odio vel bibendum. Sed imperdiet venenatis libero id condimentum. Etiam at aliquet orci, sit amet mollis sem. Morbi vitae ornare lectus, nec vestibulum diam. Aenean vulputate est quis magna rutrum pretium. Phasellus et lorem aliquam purus ornare luctus. Aliquam id est sed metus maximus accumsan. Praesent non nulla malesuada, vehicula purus sit amet, tristique diam. Integer vehicula, purus eget eleifend facilisis, metus est sodales lorem, a lacinia massa urna ac enim. Aliquam rhoncus neque ac ipsum aliquet varius at ac elit. Morbi congue turpis et velit bibendum eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+      <section class="box">
+      <h1 class="bioheader">About me</h1>
+      <p class="biotext"> Integer feugiat, nulla eget pulvinar venenatis, ante velit dictum lacus, ac egestas leo metus sit amet nulla. In hac habitasse platea dictumst. Vivamus vitae tortor sollicitudin, fringilla quam et, tempus orci. Aenean euismod lorem eu est mollis, eget convallis leo porta. Praesent eget porta sapien. Praesent eget orci cursus lacus aliquet mattis. Suspendisse vel odio non leo dignissim porta vel ut dui. Phasellus placerat urna a tempus tincidunt.</p>
+      <p class="biotext">Aliquam erat volutpat. Suspendisse consectetur aliquam odio vel bibendum. Sed imperdiet venenatis libero id condimentum. Etiam at aliquet orci, sit amet mollis sem. Morbi vitae ornare lectus, nec vestibulum diam. Aenean vulputate est quis magna rutrum pretium. Phasellus et lorem aliquam purus ornare luctus. Aliquam id est sed metus maximus accumsan. Praesent non nulla malesuada, vehicula purus sit amet, tristique diam. Integer vehicula, purus eget eleifend facilisis, metus est sodales lorem, a lacinia massa urna ac enim. Aliquam rhoncus neque ac ipsum aliquet varius at ac elit. Morbi congue turpis et velit bibendum eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+      <p class="biotext">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+      <p class="biotext">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+      <p class="biotext">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+      <p class="biotext">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+      <p class="biotext">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
     </section>
 </main>
 </div> <!-- the end of our wrapper -->
 <footer class="footer">
   <div>
 <a href="https://twitter.com/ashleighf96" target="_blank">
-<img title="Twitter" alt="Twitter" src="images/01_twitter.png" width="35" height="35" />
+<img class="twitter" title="Twitter" alt="Twitter" src="images/01_twitter.png" width="35" height="35" />
 </a>
 <a href="https://www.facebook.com/ashleigh.foster.73" target="_blank">
-<img title="Facebook" alt="Facebook" src="images/02_facebook.png" width="35" height="35" />
+<img class="facebook" title="Facebook" alt="Facebook" src="images/02_facebook.png" width="35" height="35" />
 </a>
 <a href="https://github.com/ashleighf1996" target="_blank">
-  <img title="Github" alt="Github" src="images/GitHub-Mark-Light-64px.png" width="35" height="35" />
+  <img class="github" title="Github" alt="Github" src="images/GitHub-Mark-Light-64px.png" width="35" height="35" />
 </a>
 <!-- This HTML code came from this website: https://socialmediawidgets.wordpress.com/ -->
 <!-- The Github logo came from this website: https://github.com/logos -->
 </div>
-  <em>Ashleigh Foster</em>&copy; <!-- This is a copyright symbol which reserves the rights to this website -->
+  <em class="footertext">© 2016/2017 Ashleigh Claire Foster. All Rights Reserved</em> <!-- This is a copyright symbol which reserves the rights to this website -->
 </footer>
 </body>
 </html>
