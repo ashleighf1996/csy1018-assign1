@@ -81,7 +81,7 @@ body {
   margin: 0 0;
   /* Got the margin advice from Tom Rose to help me in placing the header and content on the page correctly*/
 }
-/* http://www.w3schools.com/tags/ref_pxtoemconversion.asp */
+/* Got the font size pixels to em's converter using this website to convert my font from pixels to ems: http://www.w3schools.com/tags/ref_pxtoemconversion.asp */
 
 section.transbox {
   margin: 30px;
@@ -96,10 +96,9 @@ section.transbox {
 /* Border shadow properties came from this website: http://www.w3schools.com/cssref/tryit.asp?filename=trycss3_box-shadow */
 /* This next part of the code is for the "about me" box on the webpage */
 .profilepic {
-  border-radius: 50%;
+  border-radius: 60%;
   display: block;
   margin: auto;
-  width: 20%;
   -moz-transition: all 0.6s;
   -webkit-transition: all 0.6s;
   transition: all 0.6s;
@@ -110,7 +109,7 @@ section.transbox {
   transform: scale(1.1);
 }
 /* Got the animation hover over effect code and modified it slightly to fit the overall design of my CV from this website: https://codepen.io/afinedayproductions/pen/EzvLp/ */
-.box {
+.aboutbox {
   border: 1px solid black;
   border-radius: 10px;
   background-color: #e4e4e4;
@@ -119,24 +118,42 @@ section.transbox {
   text-align: center;
   opacity: 0.8;
   margin: 30px;
-  padding: 30px;
+  padding: 70px;
 }
 .biotext {
-font-family: 'Roboto', sans-serif;
+font-family: 'Raleway', sans-serif;
 font-size: 0.750em;
 }
 .bioheader {
-  font-family: 'Roboto', sans-serif;
-}
-.bioheader:hover {
-  transition: all .3s;
-  -moz-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+  font-family: 'Lobster', cursive;
+  font-size: 2em;
 }
 /* Got the animation hover over effect code and modified it slightly to fit the overall design of my CV from this website: https://codepen.io/afinedayproductions/pen/EzvLp/ */
 /* Border shadow properties came from this website: http://www.w3schools.com/cssref/tryit.asp?filename=trycss3_box-shadow */
-/* It ends here the "about me" code!! */
+.picwrapper {
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle
+}
+.box {
+  flex: 2;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: black;
+  box-shadow: 7px 5px 7px 5px black;
+  margin: 10px;
+  padding: 10px;
+}
+.box:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -moz-transition: all 0.6s;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+/* Learnt about how flexbox worked using the following links: https://www.youtube.com/watch?v=0i7Xb22zzQM and https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+/* It ends here the "about me" section!! */
 
 .paragraphCV {
 	text-align: center;
@@ -259,7 +276,7 @@ font-size: 0.750em;
 @-ms-viewport {
 /*width: device-width; */
 }
-/* Got the center alignment from this website: http://stackoverflow.com/questions/1040554/how-to-put-a-div-in-center-of-browser-using-css */
+/* Got the centre alignment from this website: http://stackoverflow.com/questions/1040554/how-to-put-a-div-in-center-of-browser-using-css */
 /* Got the border and alignment ideas for the content from this website: https://css-tricks.com/almanac/properties/f/float/ */
 
 /* This section is about the index page */
@@ -281,8 +298,8 @@ font-size: 0.750em;
 }
 .prof-pic {
   border-radius: 50%;
-  height: 210px;
-  width: 210px;
+  /*height: 230px;
+  width: 200px; */
   -moz-transition: all 0.6s;
   -webkit-transition: all 0.6s;
   transition: all 0.6s;
@@ -317,7 +334,7 @@ font-size: 0.750em;
   /* Got the text shadow styling type from this website: https://css-tricks.com/adding-stroke-to-web-text/ */
 }
 /* The end of the index page styling */
-/* This link was used to construct the border type: http://www.w3schools.com/css/tryit.asp?filename=trycss_text-align_all 8 */
+/* This link was used to construct the border type: http://www.w3schools.com/css/tryit.asp?filename=trycss_text-align_all 8 and this website: http://www.w3schools.com/cssref/pr_text_text-align.asp */
 /* Got border styles from here: http://www.w3schools.com/css/tryit.asp?filename=trycss_border-style */
 #form-wrap {
   width: 600px;
