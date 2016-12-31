@@ -1,4 +1,6 @@
 /* Ashleigh Claire Foster, Student ID= 16427265 */
+
+/* This first section is for the top half of the page */
 .navigation-bar {
     width: 100%;  /* i'm assuming full width */
     height: 80px; /* change it to desired width */
@@ -65,6 +67,9 @@
     height: 80px;        /* if you want it to take the full height of the bar */
     line-height: 80px;    /* if you want it vertically middle of the navbar */
 }
+/* Here is where the top half section ends */
+
+/* Here is where the body tag i.e. the overall interface for the website starts */
 body {
   /*min-height: 100vh; /* vertical height */
   /*margin: 0;
@@ -81,20 +86,40 @@ body {
   margin: 0 0;
   /* Got the margin advice from Tom Rose to help me in placing the header and content on the page correctly*/
 }
-/* Got the font size pixels to em's converter using this website to convert my font from pixels to ems: http://www.w3schools.com/tags/ref_pxtoemconversion.asp */
-
-section.transbox {
-  margin: 30px;
-  background-color: #ffffff;
-  border: 1px solid black;
-  border-radius: 10px;
-  opacity: 0.8;
-  box-shadow: 7px 5px 7px 5px black;
-  filter: alpha(opacity=60); /* For IE8 and earlier */
-  background: #F2EEED;
+.main {
+  padding: 1em;
+  /*background: #EAE5E5; */
+  /*text-align: center; */
+  border-style: groove;
+  border-width: thick;
+  /*background: #ddd5d5; */
 }
+.heading1 {
+  text-align: center;
+  margin: 0px;
+  border-style: solid;
+  border-width: thin;
+  font-family: 'Rokkitt', serif;
+  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  color: wheat;
+  border-color: #000;
+  /* Got the text shadow styling type from this website: https://css-tricks.com/adding-stroke-to-web-text/ */
+}
+.pageheader {
+  background-color: #92827E;
+  /* height: 6em; */
+}
+@-ms-viewport {
+/*width: device-width; */
+}
+/* Got the centre alignment from this website: http://stackoverflow.com/questions/1040554/how-to-put-a-div-in-center-of-browser-using-css */
+/* Got the border and alignment ideas for the content from this website: https://css-tricks.com/almanac/properties/f/float/ */
+/* Got the font size pixels to em's converter using this website to convert my font from pixels to ems: http://www.w3schools.com/tags/ref_pxtoemconversion.asp */
 /* Border shadow properties came from this website: http://www.w3schools.com/cssref/tryit.asp?filename=trycss3_box-shadow */
-/* This next part of the code is for the "about me" box on the webpage */
+
+/* Here is where the body tag i.e. the overall interface for the website ends */
+
+/* This next part of the code is for the "about me" webpage */
 .profilepic {
   border-radius: 60%;
   display: block;
@@ -155,6 +180,17 @@ font-size: 0.750em;
 /* Learnt about how flexbox worked using the following links: https://www.youtube.com/watch?v=0i7Xb22zzQM and https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
 /* It ends here the "about me" section!! */
 
+/* This next part of the code is for the "CV" webpage */
+section.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-radius: 10px;
+  opacity: 0.8;
+  box-shadow: 7px 5px 7px 5px black;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+  background: #F2EEED;
+}
 .paragraphCV {
 	text-align: center;
 	font-size: 0.750em;
@@ -212,6 +248,8 @@ font-size: 0.750em;
   color: #0A80A2;
 
 }
+/* Here is where the "CV" webpage ends */
+
 /* This is the start of the footer section for all the different webpages on my website */
 .footer {
   /*position: absolute; */
@@ -250,36 +288,8 @@ font-size: 0.750em;
 /* Got the animation hover over effect code and modified it slightly to fit the overall design of my CV from this website: https://codepen.io/afinedayproductions/pen/EzvLp/ */
 /* Got the transition code idea from this website: https://css-tricks.com/almanac/properties/t/transition/ */
 /* This is the end of the footer section */
-.main {
-  padding: 1em;
-  /*background: #EAE5E5; */
-  /*text-align: center; */
-  border-style: groove;
-  border-width: thick;
-  /*background: #ddd5d5; */
-}
-.heading1 {
-  text-align: center;
-  margin: 0px;
-  border-style: solid;
-  border-width: thin;
-  font-family: 'Rokkitt', serif;
-  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-  color: wheat;
-  border-color: #000;
-  /* Got the text shadow styling type from this website: https://css-tricks.com/adding-stroke-to-web-text/ */
-}
-.pageheader {
-  background-color: #92827E;
-  /* height: 6em; */
-}
-@-ms-viewport {
-/*width: device-width; */
-}
-/* Got the centre alignment from this website: http://stackoverflow.com/questions/1040554/how-to-put-a-div-in-center-of-browser-using-css */
-/* Got the border and alignment ideas for the content from this website: https://css-tricks.com/almanac/properties/f/float/ */
 
-/* This section is about the index page */
+/* This section is the start of the index page */
 .prof-box {
   width: 500px;
   height: 605px;
@@ -333,9 +343,98 @@ font-size: 0.750em;
   text-shadow: 2px 2px 4px #000000;
   /* Got the text shadow styling type from this website: https://css-tricks.com/adding-stroke-to-web-text/ */
 }
-/* The end of the index page styling */
 /* This link was used to construct the border type: http://www.w3schools.com/css/tryit.asp?filename=trycss_text-align_all 8 and this website: http://www.w3schools.com/cssref/pr_text_text-align.asp */
 /* Got border styles from here: http://www.w3schools.com/css/tryit.asp?filename=trycss_border-style */
+.rolloverbtn {
+  text-align: center;
+}
+/* I'm going to be adding the styles for the button below http://www.dynamicdrive.com/style/csslibrary/item/depressible_circle_buttons/*/
+a.css3dbutton {
+    background: #c1e75c; /* default green background color of button */
+    color: black;
+    text-decoration: none;
+    font: bold 18px Arial; /* font size and style */
+    position: relative;
+    display: inline-block;
+    margin-right: 15px; /* spacing between multiple buttons */
+    padding: 15px; /* padding inside button */
+    border-radius: 85px; /* border radius of button */
+    width: 85px; /* dimensions of button */
+    height: 85px;
+    outline: none;
+    box-shadow: 0 8px 0 #8dab3b, /* depth and color of main shadow */
+        0 0 3px rgba(0,0,0, 0.2),
+        0 20px 20px #eee;
+    -moz-transition: all 0.2s ease-in-out; /* transition style and duration */
+    -o-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+
+}
+a.css3dbutton span.outer{ /* outermost text container */
+    text-align: center;
+    width: 100%;
+    display: block;
+    position: relative;
+    top: 50%; /* center element */
+    -webkit-transform: translateY(-50%); /* center element */
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+a.css3dbutton span.outer span.top{ /* top line */
+    display: block;
+    padding-bottom: 4px;
+}
+
+a.css3dbutton span.outer span.bottom{ /* bottom line */
+    border-top: 1px solid black;
+    padding-top: 4px;
+    display: block;
+    text-transform: uppercase;
+    line-height: 12px;
+    font-size: 60%;
+}
+
+
+a.css3dbutton:hover {
+    background: #9cc62b; /* background color when mouse rolls over button */
+    box-shadow:  none;
+    -ms-transform: translateY(8px); /* shift button downwards by shadow depth amount */
+    -webkit-transform: translate3D(0, 8px, 0);
+    -moz-transform: translateY(8px);
+    transform: translate3D(0, 8px, 0);
+}
+
+
+a.css3dbutton.blue{
+    background: #a6e9f7;
+    box-shadow: 0 8px 0 #529dad, /* depth and color of main shadow */
+        0 0 3px rgba(0,0,0, 0.2),
+        0 20px 20px #eee;
+}
+
+a.css3dbutton.blue:hover {
+    background: #66cbe1; /* background color when mouse rolls over button */
+    box-shadow: none;
+}
+
+a.css3dbutton.pink{
+    background: #fbbaba;
+    box-shadow: 0 8px 0 #d74848, /* depth and color of main shadow */
+        0 0 3px rgba(0,0,0, 0.2),
+        0 20px 20px #eee;
+}
+
+a.css3dbutton.pink:hover {
+    background: #ea6161; /* background color when mouse rolls over button */
+    box-shadow: none;
+}
+
+/* The end of the index page */
+
+/* This is the code for the start of the contact page */
 #form-wrap {
   width: 600px;
   /*border: 3px solid #ccc; */
@@ -425,90 +524,4 @@ form h4 {
   text-align: center;
   /*font-size: 22px; */
 }
-.rolloverbtn {
-  text-align: center;
-}
-/* I'm going to be adding the styles for the button below http://www.dynamicdrive.com/style/csslibrary/item/depressible_circle_buttons/*/
-a.css3dbutton {
-    background: #c1e75c; /* default green background color of button */
-    color: black;
-    text-decoration: none;
-    font: bold 18px Arial; /* font size and style */
-    position: relative;
-    display: inline-block;
-    margin-right: 15px; /* spacing between multiple buttons */
-    padding: 15px; /* padding inside button */
-    border-radius: 85px; /* border radius of button */
-    width: 85px; /* dimensions of button */
-    height: 85px;
-    outline: none;
-    box-shadow: 0 8px 0 #8dab3b, /* depth and color of main shadow */
-        0 0 3px rgba(0,0,0, 0.2),
-        0 20px 20px #eee;
-    -moz-transition: all 0.2s ease-in-out; /* transition style and duration */
-    -o-transition: all 0.2s ease-in-out;
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-
-}
-
-a.css3dbutton span.outer{ /* outermost text container */
-    text-align: center;
-    width: 100%;
-    display: block;
-    position: relative;
-    top: 50%; /* center element */
-    -webkit-transform: translateY(-50%); /* center element */
-    -ms-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
-
-a.css3dbutton span.outer span.top{ /* top line */
-    display: block;
-    padding-bottom: 4px;
-}
-
-a.css3dbutton span.outer span.bottom{ /* bottom line */
-    border-top: 1px solid black;
-    padding-top: 4px;
-    display: block;
-    text-transform: uppercase;
-    line-height: 12px;
-    font-size: 60%;
-}
-
-
-a.css3dbutton:hover {
-    background: #9cc62b; /* background color when mouse rolls over button */
-    box-shadow:  none;
-    -ms-transform: translateY(8px); /* shift button downwards by shadow depth amount */
-    -webkit-transform: translate3D(0, 8px, 0);
-    -moz-transform: translateY(8px);
-    transform: translate3D(0, 8px, 0);
-}
-
-
-a.css3dbutton.blue{
-    background: #a6e9f7;
-    box-shadow: 0 8px 0 #529dad, /* depth and color of main shadow */
-        0 0 3px rgba(0,0,0, 0.2),
-        0 20px 20px #eee;
-}
-
-a.css3dbutton.blue:hover {
-    background: #66cbe1; /* background color when mouse rolls over button */
-    box-shadow: none;
-}
-
-a.css3dbutton.pink{
-    background: #fbbaba;
-    box-shadow: 0 8px 0 #d74848, /* depth and color of main shadow */
-        0 0 3px rgba(0,0,0, 0.2),
-        0 20px 20px #eee;
-}
-
-a.css3dbutton.pink:hover {
-    background: #ea6161; /* background color when mouse rolls over button */
-    box-shadow: none;
-}
+/* This is the end of the contact webpage */
