@@ -109,9 +109,6 @@ body {
   background-color: #92827E;
   /* height: 6em; */
 }
-@-ms-viewport {
-/*width: device-width; */
-}
 /* Got the centre alignment from this website: http://stackoverflow.com/questions/1040554/how-to-put-a-div-in-center-of-browser-using-css */
 /* Got the border and alignment ideas for the content from this website: https://css-tricks.com/almanac/properties/f/float/ */
 /* Got the font size pixels to em's converter using this website to convert my font from pixels to ems: http://www.w3schools.com/tags/ref_pxtoemconversion.asp */
@@ -120,6 +117,9 @@ body {
 /* Here is where the body tag i.e. the overall interface for the website ends */
 
 /* This next part of the code is for the "about me" webpage */
+.page {
+  text-align: center;
+}
 .profilepic {
   border-radius: 60%;
   display: block;
@@ -259,7 +259,7 @@ section.transbox {
   padding: 1rem;
   text-align: center;
   background: rgb(27, 83, 110);
-  position: sticky;
+  /*position: sticky; */
 }
 .footertext {
   font-family: 'Indie Flower', cursive;
@@ -300,12 +300,6 @@ section.transbox {
   text-align: center;
   border-radius: 25px;
 }
-@media only screen and (max-width: 844px) {
-  .prof-box {
-    width: 80%;
-    height: 80%;
-  }
-}
 .prof-pic {
   border-radius: 50%;
   /*height: 230px;
@@ -323,7 +317,7 @@ section.transbox {
 /* Got the profile box and profile picture layout from this YouTube video: https://www.youtube.com/watch?v=jJuHQNULXGs and I was inspired by his design and decided to incorporate my own theme to it! */
 .index2 {
   font-weight: 100;
-  letter-spacing: 3;
+  /*letter-spacing: 1px; */
   font-family: 'Roboto', sans-serif;
   text-shadow: 2px 2px 4px #000000;
   /* Got the text shadow styling type from this website: https://css-tricks.com/adding-stroke-to-web-text/ */
