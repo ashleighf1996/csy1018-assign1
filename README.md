@@ -8,9 +8,10 @@ Assignment 1: Web Development
 URL: https://ashleighf1996.github.io/csy1018-assign1/index.html
 
 ##Intro
-In this documentation, I am going to be talking about the development of my simple CV portfolio website all the way from the first initial stages of the design to the final implementations of the website as well as discussing good modes of practice, validating my HTML and CSS as well as talking about who I’ve been working with when designing and building my website including how long I’ve completed the CV portfolio website itself within the 12 weeks. I am now going to go through a series of points which will help me to discuss the overall development of my website.
+In this documentation, I am going to be talking about the development of my simple CV portfolio website all the way from the first initial stages of the design to the final implementations of the website.
 
 ##Research
+For the first part of my web development project I had to conduct a research analysis of a variety of different CV websites. The main purpose of conducting a research analysis for each of my webpages was to gather and collect some ideas on how I would go about designing my overall CV portfolio website. There were a few websites which I have used to gather these ideas and inspirations from including:
 
 https://joel.sh/ 
 
