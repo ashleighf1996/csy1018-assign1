@@ -11,7 +11,7 @@ URL: https://ashleighf1996.github.io/csy1018-assign1/index.html
 In this documentation, I am going to be talking about the development of my simple CV portfolio website all the way from the first initial stages of the design to the final implementations of the website.
 
 ##Research
-For the first part of my web development project I had to conduct a research analysis of a variety of different CV websites. The main purpose of conducting a research analysis for each of my webpages was to gather and collect some ideas on how I would go about designing my overall CV portfolio website. There were a few websites which I have used to gather these ideas and inspirations from including:
+The main purpose of conducting a research analysis for each of my webpages was to gather and collect some ideas on how I would go about designing my overall CV portfolio website. There were a few websites which I have used to gather these ideas and inspirations from including:
 
 https://joel.sh/ 
 
@@ -256,5 +256,83 @@ I have managed to fix all the 7 error codes that were causing and or showing up 
 * **Amna Hira Mahmood**
 
 * **Tom Rose**
+
+* **Liz Coulter-Smith**
+
+---
+
+This does go over the limit but I needed to add references as this is a MUST requirement!
+
+##References
+
+https://css-tricks.com/snippets/html/responsive-meta-tag/
+
+http://www.hyperlinkcode.com/html-image-hyperlink.php 
+
+http://www.dynamicdrive.com/style/csslibrary/item/depressible_circle_buttons/ 
+
+https://socialmediawidgets.wordpress.com/
+
+https://github.com/logos 
+
+http://www.w3schools.com/html/tryit.asp?filename=tryhtml5_audio_all 
+
+https://www.youtube.com/watch?v=0i7Xb22zzQM 
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+https://codepen.io/lizcoultersmith/pen/dOqYWK 
+
+http://codepen.io/UoN-ThomasRose/pen/NbYrGj 
+
+https://www.youtube.com/watch?v=DB14R0gt8Y8 
+
+https://csstricks.com/almanac/properties/t/transition/ 
+
+http://stackoverflow.com/questions/24647139/thick-underline-when-hover 
+
+http://www.dynamicdrive.com/style/csslibrary/item/css_animated_underline_menu/ 
+
+http://www.w3schools.com/tags/ref_pxtoemconversion.asp
+
+http://www.w3schools.com/cssref/tryit.asp?filename=trycss3_box-shadow 
+
+https://codepen.io/afinedayproductions/pen/EzvLp/ 
+
+https://www.youtube.com/watch?v=0i7Xb22zzQM 
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/ 
+
+http://stackoverflow.com/questions/5347451/centering-ul-keeping-lis-aligned 
+
+http://www.w3schools.com/cssref/tryit.asp?filename=trycss3_text-shadow_white 
+
+https://css-tricks.com/adding-stroke-to-web-text/ 
+
+http://stackoverflow.com/questions/1040554/how-to-put-a-div-in-center-of-browser-using-css 
+
+https://css-tricks.com/almanac/properties/f/float/ 
+
+https://codepen.io/afinedayproductions/pen/EzvLp/ 
+
+https://www.youtube.com/watch?v=jJuHQNULXGs
+
+http://www.w3schools.com/cssref/pr_text_text-align.asp 
+
+http://www.w3schools.com/css/tryit.asp?filename=trycss_border-style
+
+http://www.dynamicdrive.com/style/csslibrary/item/depressible_circle_buttons/ 
+
+https://www.abeautifulsite.net/how-to-make-rounded-images-with-css 
+
+https://codepen.io/cbracco/pen/zekgx 
+
+http://www.color-blindness.com/coblis-color-blindness-simulator/
+
+http://stackoverflow.com/questions/26995179/the-for-attribute-of-the-label-element-must-refer-to-a-form-control-error
+
+https://www.sitepoint.com/community/t/css-validation-unknown-vendor-extensions/125616
+
+http://960.gs/
 
 ---
