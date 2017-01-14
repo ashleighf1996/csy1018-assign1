@@ -7,6 +7,8 @@ Assignment 1: Web Development
 
 URL: https://ashleighf1996.github.io/csy1018-assign1/index.html
 
+Submission Date: 15/01/2017
+
 ##Intro
 In this documentation, I am going to be talking about the development of my simple CV portfolio website all the way from the first initial stages of the design to the final implementations of the website.
 
